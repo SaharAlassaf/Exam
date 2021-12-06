@@ -1,4 +1,4 @@
-1- Error: nodemon | Solve: download npm i nodemon
+* 1- Error: nodemon | Solve: download npm i nodemon
 * 2- Error: require("../db"); | Solve: require("./db");
 * 3- Error: Cannot find "mongose" | Solve: npm i mongoose
 * 4- Error: Cannot find module './../../db/models/todos' | Solve: const todoModel = require("./../../db/models/todo");
@@ -6,7 +6,7 @@
 * 6- Error: const todoModel = mongoose.module("Todo", todoSchema); | Solve: const todoModel = mongoose.model("Todo", todoSchema);
 * 7- Error: Route.get() requires a callback function but got a [object Undefined] | Solve: module.exports
 * 8- Error: Route.put() requires a callback function but got a [object Undefined] | export (updateTodo)
-* 9- Error: morgan is not defined | Solve: const morgan = require("morgan");
+* 9- Error: morgan is not defined | Solve: const morgan = require("morgan"); && app.use(cors); | app.use(cors());
 * 10- require("dotenv").config(); and DB_URL
 * 11- Error: listen EADDRINUSE: address already in use 5050; | Solve: PORT=5050 without ;
 * 12-   task: { type: Boolean, required: true }, |  type: String
